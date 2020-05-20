@@ -3,6 +3,7 @@ package com.example.gameone;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -26,6 +27,14 @@ edittextpassword = findViewById(R.id.edittextpassword);
 tvsignin = findViewById(R.id.tvsignin);
 login = findViewById(R.id.btnlogin);
 
+login.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View v) {
+        String Email = editextemail.getText().toString();
+        String password = edittextpassword.getText().toString();
+        
+    }
+});
 
     }
 }
