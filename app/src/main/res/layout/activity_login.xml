@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".LoginActivity">
 
     <EditText
-        android:id="@+id/edittextemail"
+        android:id="@+id/editText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="30dp"
@@ -20,7 +20,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/edittextpassword"
+        android:id="@+id/editText3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -33,21 +33,22 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/btnlogin"
+        android:id="@+id/button"
         android:layout_width="130dp"
         android:layout_height="49dp"
-        android:text="Login"
+        android:text="Sign up "
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="138dp"
         tools:layout_editor_absoluteY="451dp" />
 
     <TextView
-        android:id="@+id/tvsignin"
+        android:id="@+id/textView2"
         android:layout_width="250dp"
         android:layout_height="29dp"
-        android:textStyle="bold"
         android:text="Already have an Account?Sign in Here"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="67dp"
         tools:layout_editor_absoluteY="521dp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

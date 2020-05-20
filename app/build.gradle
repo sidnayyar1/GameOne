@@ -33,6 +33,8 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     //added implementation of firebase
     implementation 'com.google.firebase:firebase-analytics:17.2.2'
+
+    implementation 'com.firebaseui:firebase-ui-auth:6.2.0'
 }
 //added plugin for firebase
 apply plugin: 'com.google.gms.google-services'
