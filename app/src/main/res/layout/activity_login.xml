@@ -7,7 +7,7 @@
     tools:context=".LoginActivity">
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/edittextemail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="30dp"
@@ -20,7 +20,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/edittextpassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -33,7 +33,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnlogin"
         android:layout_width="130dp"
         android:layout_height="49dp"
         android:text="Sign up "
@@ -42,7 +42,7 @@
         tools:layout_editor_absoluteY="451dp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tvsignin"
         android:layout_width="250dp"
         android:layout_height="29dp"
         android:text="Already have an Account?Sign in Here"

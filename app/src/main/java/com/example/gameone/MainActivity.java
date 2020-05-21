@@ -3,6 +3,7 @@ package com.example.gameone;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -55,11 +56,21 @@ login.setOnClickListener(new View.OnClickListener() {
                 if (!task.isSuccessful()){
                     Toast.makeText(MainActivity.this,"login unsuccesful.please try again later",Toast.LENGTH_LONG);
                 }else {
-
+                    startActivity(new Intent(MainActivity.this,HomeActivity.class));
                 }
             }
         });
     }
+    else {
+        Toast.makeText(MainActivity.this,"Error ocured",Toast.LENGTH_LONG);
+    }
+    }
+});
+tvsignin.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View v) {
+        Intent i= new Intent(MainActivity.this,LoginActivity.class);
+        startActivity(i) ;
     }
 });
 
